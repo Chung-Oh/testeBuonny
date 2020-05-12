@@ -363,7 +363,7 @@ msgstr "Editar Produto"
 #: Produtos/index.php:8
 #: Produtos/view.php:14
 msgid "New Produto"
-msgstr "Novo Produto"
+msgstr "Adicionar"
 
 #: Produtos/index.php:9
 msgid "Produtos"

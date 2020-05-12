@@ -34,6 +34,9 @@
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>
+            <div class="btnVoltar">
+                <?= $this->Html->link(__('Voltar'), ['controller' => 'Produtos', 'action' => 'index']) ?>
+            </div>
             <?= $this->Form->end() ?>
         </div>
     </div>

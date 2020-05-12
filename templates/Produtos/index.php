@@ -5,7 +5,14 @@
  */
 ?>
 <div class="produtos index content">
-    <?= $this->Html->link(__('New Produto'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    <?= $this->Html->link(
+        __('New Produto'),
+        ['action' => 'add'],
+        [
+            'class' => 'btn btn-primary btn-lg float-right font-weight-bold',
+            'style' => 'font-size: 16px'
+        ]
+    ) ?>
     <h3><?= __('Produtos') ?></h3>
     <div class="table-responsive">
         <table>
@@ -28,8 +35,8 @@
                     <td><?= $this->Number->format($produto->preco) ?></td>
                     <td><?= $this->Number->format($produto->preco) ?></td>
                     <td class="actions">
-                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $produto->id]) ?>
-                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $produto->id], ['confirm' => __('Are you sure you want to delete # {0}?', $produto->id)]) ?>
+                        <button type="button" onclick="edit('/produtos/edit/', <?php echo $produto->id ?>)" class="btn btn-warning">Editar</button>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Excluir</button>
                     </td>
                 </tr>
                 <?php endforeach; ?>
@@ -46,4 +53,24 @@
         </ul>
         <p><?= $this->Paginator->counter(__('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')) ?></p>
     </div>
+</div>
+<!-- Modal Excluir -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Excluir</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Deseja realmente excluir este produto?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
