@@ -13,6 +13,7 @@
                 <tr>
                     <th><?= $this->Paginator->sort('id') ?></th>
                     <th><?= $this->Paginator->sort('cliente_id') ?></th>
+                    <th><?= __('Valor Total') ?></th>
                     <th class="actions"><?= __('Actions') ?></th>
                 </tr>
             </thead>
@@ -20,9 +21,9 @@
                 <?php foreach ($pedidos as $pedido): ?>
                 <tr>
                     <td><?= $this->Number->format($pedido->id) ?></td>
-                    <td><?= $pedido->has('cliente') ? $this->Html->link($pedido->cliente->id, ['controller' => 'Clientes', 'action' => 'view', $pedido->cliente->id]) : '' ?></td>
+                    <td><?= $pedido->has('cliente') ? $this->Html->link($pedido->cliente->nome, ['controller' => 'Clientes', 'action' => 'view', $pedido->cliente->id]) : '' ?></td>
+                    <td><?= $this->Number->format($pedido->valor_total) ?></td>
                     <td class="actions">
-                        <?= $this->Html->link(__('View'), ['action' => 'view', $pedido->id]) ?>
                         <?= $this->Html->link(__('Edit'), ['action' => 'edit', $pedido->id]) ?>
                         <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $pedido->id], ['confirm' => __('Are you sure you want to delete # {0}?', $pedido->id)]) ?>
                     </td>

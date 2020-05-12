@@ -1,0 +1,387 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2020-05-12 01:15+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/ClientesController.php:53
+#: Controller/ClientesController.php:77
+msgid "The cliente has been saved."
+msgstr "Cliente foi salvo com sucesso."
+
+#: Controller/ClientesController.php:57
+#: Controller/ClientesController.php:81
+msgid "The cliente could not be saved. Please, try again."
+msgstr "Cliente não foi salvo. Por favor tente novamente."
+
+#: Controller/ClientesController.php:98
+msgid "The cliente has been deleted."
+msgstr "Cliente foi removido."
+
+#: Controller/ClientesController.php:100
+msgid "The cliente could not be deleted. Please, try again."
+msgstr "Cliente não pode ser removido. Por favor, tente novamente."
+
+#: Controller/PedidoItemsController.php:56
+#: Controller/PedidoItemsController.php:82
+msgid "The pedido item has been saved."
+msgstr "Pedido item salvo com sucesso."
+
+#: Controller/PedidoItemsController.php:60
+#: Controller/PedidoItemsController.php:86
+msgid "The pedido item could not be saved. Please, try again."
+msgstr "Pedido item não pode ser salvo. Por favor, tente novamente."
+
+#: Controller/PedidoItemsController.php:105
+msgid "The pedido item has been deleted."
+msgstr "Peido item foi removido."
+
+#: Controller/PedidoItemsController.php:107
+msgid "The pedido item could not be deleted. Please, try again."
+msgstr "Pedido item não pode ser removido. Por favor, tente novamente."
+
+#: Controller/PedidosController.php:56
+#: Controller/PedidosController.php:81
+msgid "The pedido has been saved."
+msgstr "Pedido foi salvo com sucesso."
+
+#: Controller/PedidosController.php:60
+#: Controller/PedidosController.php:85
+msgid "The pedido could not be saved. Please, try again."
+msgstr "Pedido não pode ser salvo. Por favor tente novamente."
+
+#: Controller/PedidosController.php:103
+msgid "The pedido has been deleted."
+msgstr "Pedido foi removido."
+
+#: Controller/PedidosController.php:105
+msgid "The pedido could not be deleted. Please, try again."
+msgstr "Pedido não pode ser removido. Por favor tente novamente."
+
+#: Controller/ProdutosController.php:53
+#: Controller/ProdutosController.php:77
+msgid "The produto has been saved."
+msgstr "Produto salvo com sucesso."
+
+#: Controller/ProdutosController.php:57
+#: Controller/ProdutosController.php:81
+msgid "The produto could not be saved. Please, try again."
+msgstr "Produto não pode ser salvo. Por favor tente novamente."
+
+#: Controller/ProdutosController.php:98
+msgid "The produto has been deleted."
+msgstr "Produto foi removido com sucesso."
+
+#: Controller/ProdutosController.php:100
+msgid "The produto could not be deleted. Please, try again."
+msgstr "Produto não pode ser removido. Por favor tente novamente."
+
+#: Clientes/add.php:10
+#: Clientes/edit.php:10
+#: Clientes/index.php:16
+#: Clientes/view.php:10
+#: Clientes/view.php:38
+#: PedidoItems/add.php:10
+#: PedidoItems/edit.php:10
+#: PedidoItems/index.php:18
+#: PedidoItems/view.php:10
+#: Pedidos/add.php:10
+#: Pedidos/edit.php:10
+#: Pedidos/index.php:16
+#: Pedidos/view.php:10
+#: Pedidos/view.php:40
+#: Produtos/add.php:10
+#: Produtos/edit.php:10
+#: Produtos/index.php:17
+#: Produtos/view.php:10
+#: Produtos/view.php:44
+msgid "Actions"
+msgstr "Ações"
+
+#: Clientes/add.php:11
+#: Clientes/edit.php:16
+#: Clientes/view.php:13
+msgid "List Clientes"
+msgstr "Lista de Clientes"
+
+#: Clientes/add.php:18
+msgid "Add Cliente"
+msgstr "Adicionar Cliente"
+
+#: Clientes/add.php:23
+#: Clientes/edit.php:28
+#: PedidoItems/add.php:25
+#: PedidoItems/edit.php:30
+#: Pedidos/add.php:23
+#: Pedidos/edit.php:28
+#: Produtos/add.php:24
+#: Produtos/edit.php:29
+msgid "Submit"
+msgstr "Salvar"
+
+#: Clientes/edit.php:12
+#: Clientes/index.php:27
+#: Clientes/view.php:47
+#: PedidoItems/edit.php:12
+#: PedidoItems/index.php:31
+#: Pedidos/edit.php:12
+#: Pedidos/index.php:27
+#: Pedidos/view.php:51
+#: Produtos/edit.php:12
+#: Produtos/index.php:29
+#: Produtos/view.php:55
+msgid "Delete"
+msgstr "Excluir"
+
+#: Clientes/edit.php:14
+#: Clientes/index.php:27
+#: Clientes/view.php:12
+#: Clientes/view.php:47
+#: PedidoItems/edit.php:14
+#: PedidoItems/index.php:31
+#: PedidoItems/view.php:12
+#: Pedidos/edit.php:14
+#: Pedidos/index.php:27
+#: Pedidos/view.php:12
+#: Pedidos/view.php:51
+#: Produtos/edit.php:14
+#: Produtos/index.php:29
+#: Produtos/view.php:12
+#: Produtos/view.php:55
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Tem certeza que deseja remover # {0}?"
+
+#: Clientes/edit.php:23
+#: Clientes/view.php:11
+msgid "Edit Cliente"
+msgstr "Editar Cliente"
+
+#: Clientes/index.php:8
+#: Clientes/view.php:14
+msgid "New Cliente"
+msgstr "Novo Cliente"
+
+#: Clientes/index.php:9
+msgid "Clientes"
+msgstr ""
+
+#: Clientes/index.php:25
+#: Clientes/view.php:45
+#: PedidoItems/index.php:29
+#: Pedidos/index.php:25
+#: Pedidos/view.php:49
+#: Produtos/index.php:27
+#: Produtos/view.php:53
+msgid "View"
+msgstr "Visualizar"
+
+#: Clientes/index.php:26
+#: Clientes/view.php:46
+#: PedidoItems/index.php:30
+#: Pedidos/index.php:26
+#: Pedidos/view.php:50
+#: Produtos/index.php:28
+#: Produtos/view.php:54
+msgid "Edit"
+msgstr "Editar"
+
+#: Clientes/index.php:36
+#: PedidoItems/index.php:40
+#: Pedidos/index.php:36
+#: Produtos/index.php:38
+msgid "first"
+msgstr "primeiro"
+
+#: Clientes/index.php:37
+#: PedidoItems/index.php:41
+#: Pedidos/index.php:37
+#: Produtos/index.php:39
+msgid "previous"
+msgstr "anterior"
+
+#: Clientes/index.php:39
+#: PedidoItems/index.php:43
+#: Pedidos/index.php:39
+#: Produtos/index.php:41
+msgid "next"
+msgstr "próximo"
+
+#: Clientes/index.php:40
+#: PedidoItems/index.php:44
+#: Pedidos/index.php:40
+#: Produtos/index.php:42
+msgid "last"
+msgstr "último"
+
+#: Clientes/index.php:42
+#: PedidoItems/index.php:46
+#: Pedidos/index.php:42
+#: Produtos/index.php:44
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Página {{page}} de {{pages}}, mostrando {{current}} registro(s) de {{count}} total"
+
+#: Clientes/view.php:12
+msgid "Delete Cliente"
+msgstr "Remover Cliente"
+
+#: Clientes/view.php:22
+msgid "Nome"
+msgstr ""
+
+#: Clientes/view.php:26
+#: Clientes/view.php:36
+#: PedidoItems/view.php:30
+#: Pedidos/view.php:26
+#: Pedidos/view.php:36
+#: Produtos/view.php:26
+#: Produtos/view.php:40
+msgid "Id"
+msgstr ""
+
+#: Clientes/view.php:31
+msgid "Related Pedidos"
+msgstr ""
+
+#: Clientes/view.php:37
+msgid "Cliente Id"
+msgstr ""
+
+#: PedidoItems/add.php:11
+#: PedidoItems/edit.php:16
+#: PedidoItems/view.php:13
+msgid "List Pedido Items"
+msgstr "Lista Pedido Itens"
+
+#: PedidoItems/add.php:18
+msgid "Add Pedido Item"
+msgstr "Adicionar Pedido Item"
+
+#: PedidoItems/edit.php:23
+#: PedidoItems/view.php:11
+msgid "Edit Pedido Item"
+msgstr "Editar Pedido Item"
+
+#: PedidoItems/index.php:8
+#: PedidoItems/view.php:14
+msgid "New Pedido Item"
+msgstr "Novo Pedido Item"
+
+#: PedidoItems/index.php:9
+msgid "Pedido Items"
+msgstr "Pedido Itens"
+
+#: PedidoItems/view.php:12
+msgid "Delete Pedido Item"
+msgstr "Remover Pedido Item"
+
+#: PedidoItems/view.php:22
+msgid "Pedido"
+msgstr ""
+
+#: PedidoItems/view.php:26
+msgid "Produto"
+msgstr ""
+
+#: PedidoItems/view.php:34
+#: Pedidos/view.php:39
+#: Produtos/view.php:43
+msgid "Quantidade"
+msgstr ""
+
+#: Pedidos/add.php:11
+#: Pedidos/edit.php:16
+#: Pedidos/view.php:13
+msgid "List Pedidos"
+msgstr "Lista Pedidos"
+
+#: Pedidos/add.php:18
+msgid "Add Pedido"
+msgstr "Adicionar Pedido"
+
+#: Pedidos/edit.php:23
+#: Pedidos/view.php:11
+msgid "Edit Pedido"
+msgstr "Editar Pedido"
+
+#: Pedidos/index.php:8
+#: Pedidos/view.php:14
+msgid "New Pedido"
+msgstr "Adicionar"
+
+#: Pedidos/index.php:9
+msgid "Pedidos"
+msgstr ""
+
+#: Pedidos/view.php:12
+msgid "Delete Pedido"
+msgstr "Remover Pedido"
+
+#: Pedidos/view.php:22
+msgid "Cliente"
+msgstr ""
+
+#: Pedidos/view.php:31
+#: Produtos/view.php:35
+msgid "Related Pedido Items"
+msgstr "Itens de pedidos relacionados"
+
+#: Pedidos/view.php:37
+#: Produtos/view.php:41
+msgid "Pedido Id"
+msgstr ""
+
+#: Pedidos/view.php:38
+#: Produtos/view.php:42
+msgid "Produto Id"
+msgstr ""
+
+#: Produtos/add.php:11
+#: Produtos/edit.php:16
+#: Produtos/view.php:13
+msgid "List Produtos"
+msgstr "Lista Produtos"
+
+#: Produtos/add.php:18
+msgid "Add Produto"
+msgstr "Adicionar Produto"
+
+#: Produtos/edit.php:23
+#: Produtos/view.php:11
+msgid "Edit Produto"
+msgstr "Editar Produto"
+
+#: Produtos/index.php:8
+#: Produtos/view.php:14
+msgid "New Produto"
+msgstr "Novo Produto"
+
+#: Produtos/index.php:9
+msgid "Produtos"
+msgstr ""
+
+#: Produtos/view.php:12
+msgid "Delete Produto"
+msgstr "Remover Produto"
+
+#: Produtos/view.php:22
+msgid "Descricao"
+msgstr "Descrição"
+
+#: Produtos/view.php:30
+msgid "Preco"
+msgstr "Preço"
+
+#: layout/error.php:40
+msgid "Back"
+msgstr "Voltar"
+

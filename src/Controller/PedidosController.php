@@ -19,7 +19,7 @@ class PedidosController extends AppController
     public function index()
     {
         $this->paginate = [
-            'contain' => ['Clientes'],
+            'contain' => ['Clientes', 'PedidoItems'],
         ];
         $pedidos = $this->paginate($this->Pedidos);
 
@@ -51,7 +51,7 @@ class PedidosController extends AppController
     {
         $pedido = $this->Pedidos->newEmptyEntity();
         if ($this->request->is('post')) {
-            $pedido = $this->Pedidos->patchEntity($pedido, $this->request->getData());
+            $pedido = $this->Pedidos->patchEntity($pedido, array_filter($this->request->getData()));
             if ($this->Pedidos->save($pedido)) {
                 $this->Flash->success(__('The pedido has been saved.'));
 
