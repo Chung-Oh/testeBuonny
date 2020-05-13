@@ -32,7 +32,7 @@
                     <td><?= $this->Number->format($pedido->valor_total) ?></td>
                     <td class="actions">
                         <button type="button" onclick="edit('/pedidos/edit/', <?php echo $pedido->id ?>)" class="btn btn-warning">Editar</button>
-                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Excluir</button>
+                        <button type="button" onclick="remove('/pedidos/delete/', <?php echo $pedido->id ?>)" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Excluir</button>
                     </td>
                 </tr>
                 <?php endforeach; ?>
@@ -60,13 +60,15 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+      <?= $this->Form->create($pedidos, ['action' => '/pedidos/delete/']); ?>
       <div class="modal-body">
         Deseja realmente excluir este pedido?
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary btn-lg" data-dismiss="modal">Não</button>
+        <button type="submit" class="btn btn-primary btn-lg">Sim</button>
       </div>
+      <?= $this->Form->end() ?>
     </div>
   </div>
 </div>

@@ -67,6 +67,10 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         edit = (action, id) => {
             window.location.href = `${action}${id}`;
         }
+        remove = (action, id) => {
+            const form = document.querySelector('form');
+            form.action = `${action}${id}`;
+        }
     </script>
 </body>
 </html>
